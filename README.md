@@ -39,6 +39,15 @@ make
 Sin busybox, la capa `applet.c` reintenta con el binario standalone
 (`ls`, `cp`, ...) — en cualquier distro normal funciona igual.
 
+## El ecosistema
+
+- [W3M](https://github.com/0ldskoolerz/W3M) — el gestor de ventanas
+- [w3m-net](https://github.com/0ldskoolerz/w3m-net) — suite de red
+  estilo Trinux (ping, DNS, ARP, scan, sniff...), misma filosofía
+  GUI-Xlib + busybox
+- [w3m-linux](https://github.com/0ldskoolerz/w3m-linux) — distro
+  completa con todo integrado
+
 ## Usar con W3M
 
 ```sh
